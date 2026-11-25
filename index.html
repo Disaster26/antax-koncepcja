@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Punkt odbioru paczek, opłaty i ksero w Nowej Hucie | Antax s.c. Kraków</title>
+<meta name="description" content="Antax s.c., os. Teatralne 33a w Krakowie (Nowa Huta): nadanie i odbiór paczek GLS, InPost, DHL, DPD, UPS, FedEx, opłaty rachunków, ksero, Avon i wymiana butli CO2. Tel. 12 680 34 80.">
+<meta name="theme-color" content="#180F5E">
+<link rel="icon" href="img/icon-192.png" type="image/png">
+<link rel="preload" href="fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:Figtree;font-style:normal;font-weight:300 900;font-display:swap;src:url(fonts/figtree-latin-wght-normal.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:Figtree;font-style:normal;font-weight:300 900;font-display:swap;src:url(fonts/figtree-latin-ext-wght-normal.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{--granat:#180F5E;--granat2:#2B2190;--szary:#F2F3F7;--tekst:#3B3F4C;--linia:#DADCE6;--l:#180F5E}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:72px}
+body{margin:0;font-family:Figtree,system-ui,sans-serif;color:#14122B;background:#fff;font-size:17px;line-height:1.6}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:min(1200px,100% - 40px);margin-inline:auto}
+h1,h2,h3{line-height:1.12;margin:0;letter-spacing:-.015em;color:var(--granat)}
+h2{font-size:clamp(30px,3.8vw,46px);font-weight:750}
+h3{font-size:22px;font-weight:700}
+p{margin:0 0 1em}
+:focus-visible{outline:3px solid var(--granat2);outline-offset:3px}
+
+/* grot z logo: otwarty trojkat na koncu linii */
+.grot{display:inline-block;width:30px;height:14px;flex:none}
+.grot polygon{fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:miter}
+
+.btn{display:inline-flex;align-items:center;gap:14px;min-height:54px;padding:0 26px;font:700 17px/1 Figtree,sans-serif;text-decoration:none;border:2px solid var(--granat);background:var(--granat);color:#fff;transition:background .2s,color .2s,border-color .2s;white-space:nowrap}
+.btn:hover{background:var(--granat2);border-color:var(--granat2)}
+.btn-bialy{background:#fff;color:var(--granat);border-color:#fff}
+.btn-bialy:hover{background:#E9E8F7;border-color:#E9E8F7}
+.btn-obrys{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+.btn-obrys:hover{background:rgba(255,255,255,.1);border-color:#fff}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--linia)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:20px}
+.logo img{width:176px;height:auto}
+.menu{display:flex;align-items:center;gap:30px}
+.menu a{text-decoration:none;font-weight:600;font-size:16px;color:var(--granat)}
+.menu a:not(.btn):hover{text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:2px}
+.menu .btn{min-height:44px;padding:0 18px;font-size:16px;color:#fff}
+.burger{display:none;width:48px;height:48px;border:0;background:none;padding:12px;cursor:pointer;color:var(--granat)}
+.burger i{display:block;height:2px;background:currentColor;margin:6px 0}
+
+/* pierwszy ekran */
+.hero{background:var(--granat);color:#fff;--l:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:56px;align-items:center;min-height:min(calc(100svh - 68px),760px);padding-block:52px 60px}
+.trasa{position:relative;border-top:2px solid var(--l);border-left:2px solid var(--l);padding:40px 44px 56px}
+.t-prawa{position:absolute;right:0;top:-2px;width:2px;height:38%;background:var(--l)}
+.t-prawa::after{content:"";position:absolute;left:50%;bottom:-13px;width:15px;height:15px;border:2px solid var(--l);border-radius:50%;transform:translateX(-50%);box-sizing:border-box}
+.t-dol{position:absolute;left:-2px;bottom:0;height:2px;width:58%;background:var(--l)}
+.t-dol svg{position:absolute;right:-46px;top:-12px;width:48px;height:26px}
+.t-dol polygon{fill:none;stroke:var(--l);stroke-width:2}
+.od{font-size:16px;margin:0 0 18px;color:#D6D3F2}
+.hero h1{color:#fff;font-size:clamp(32px,4.3vw,58px);font-weight:750}
+.hero .lead{font-size:clamp(17px,1.45vw,20px);max-width:32em;margin:22px 0 0;color:#E4E2F6}
+.godz{display:flex;flex-wrap:wrap;gap:4px 18px;margin:18px 0 0;font-size:16px;color:#fff;font-weight:600}
+.godz span{color:#C9C5EE;font-weight:400}
+.akcje{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+.skroty{display:grid;align-self:center}
+.skroty a{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:19px 4px;border-bottom:1px solid rgba(255,255,255,.25);color:#fff;text-decoration:none;font-size:clamp(19px,1.6vw,23px);font-weight:600}
+.skroty a:first-child{border-top:1px solid rgba(255,255,255,.25)}
+.skroty .grot{color:#B6B1E6;transition:transform .2s,color .2s}
+.skroty a:hover .grot{transform:translateX(6px);color:#fff}
+/* uslugi */
+.sekcja{padding:96px 0}
+.szara{background:var(--szary)}
+.naglowek{display:grid;grid-template-columns:1fr 1fr;gap:30px 60px;align-items:end;margin-bottom:48px}
+.naglowek p{color:var(--tekst);margin:0;max-width:34em}
+.kreska{display:flex;align-items:center;color:var(--granat);margin-top:20px}
+.kreska b{display:block;height:2px;width:90px;background:currentColor}
+.kreska svg{width:30px;height:16px;margin-left:-1px}
+.kreska polygon{fill:none;stroke:currentColor;stroke-width:2}
+.uslugi{display:grid;grid-template-columns:repeat(2,1fr);gap:0 64px}
+.usluga{border-top:1px solid var(--linia);padding:28px 0 30px}
+.usluga h3{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.usluga h3 a{text-decoration:none}
+.usluga h3 a:hover{text-decoration:underline;text-underline-offset:5px}
+.usluga p{color:var(--tekst);margin:10px 0 0;font-size:16.5px}
+.usluga .kto{font-size:15px;color:#5D6172;margin-top:10px}
+
+/* paczki */
+.dwie{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.dwie p{color:var(--tekst)}
+.mocno{font-size:20px;font-weight:650;color:var(--granat)!important;line-height:1.45}
+.przewoznicy{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0;padding:0;list-style:none}
+.przewoznicy li{background:#fff;border:1px solid var(--linia);padding:9px 16px;font-weight:700;color:var(--granat);font-size:16px}
+.lista{margin:0;padding:0;list-style:none}
+.lista li{position:relative;padding:16px 0 16px 46px;border-top:1px solid var(--linia);color:var(--tekst)}
+.lista li:last-child{border-bottom:1px solid var(--linia)}
+.lista li b{color:var(--granat);display:block;font-size:18px}
+.lista li::before{content:"";position:absolute;left:0;top:27px;width:26px;height:2px;background:var(--granat)}
+.lista li::after{content:"";position:absolute;left:24px;top:22px;border-left:10px solid var(--granat);border-top:6px solid transparent;border-bottom:6px solid transparent}
+.dwie .uwaga{margin-top:26px;background:var(--granat);color:#fff;padding:22px 26px;font-size:18px;line-height:1.45}
+.dwie .uwaga b{display:block;font-size:22px;margin-bottom:4px}
+
+/* oplaty */
+.fakty{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;margin:0;padding:0;list-style:none}
+.fakty li{border-top:2px solid var(--granat);padding:16px 0 22px}
+.fakty b{display:block;color:var(--granat);font-size:19px;line-height:1.3;margin-bottom:6px}
+.fakty span{color:var(--tekst);font-size:16px}
+
+/* co2 */
+.cennik{margin:0;padding:0;list-style:none;background:#fff;border:1px solid var(--linia)}
+.cennik li{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:20px 26px;border-top:1px solid var(--linia)}
+.cennik li:first-child{border-top:0}
+.cennik span{color:var(--tekst)}
+.cennik b{font-size:26px;color:var(--granat);white-space:nowrap}
+.male{font-size:15px;color:#5D6172;margin-top:14px}
+
+/* avon */
+.avon{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.avon img{width:100%;max-width:640px;aspect-ratio:768/446;object-fit:cover}
+.avon p{color:var(--tekst)}
+.zespol{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+
+/* o nas + opinie */
+.onas{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:start}
+.onas>div,.dwie>div,.kontakt>div{min-width:0}
+.onas p{color:var(--tekst)}
+.punkt{margin:26px 0 0;max-width:400px}
+.punkt img{width:100%;border:6px solid #fff;box-shadow:0 0 0 1px var(--linia)}
+.punkt figcaption{font-size:15px;color:#5D6172;margin-top:8px}
+.podpis{display:flex;gap:30px;flex-wrap:wrap;margin-top:22px}
+.podpis b{display:block;color:var(--granat);font-size:19px}
+.podpis span{font-size:15px;color:#5D6172}
+.ocena{display:flex;align-items:baseline;gap:12px;margin-bottom:20px;color:var(--tekst)}
+.ocena b{font-size:44px;line-height:1;color:var(--granat)}
+.opinie{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,1fr);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;cursor:grab;scrollbar-width:thin}
+.opinie.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.opinie blockquote{scroll-snap-align:start;margin:0;background:#fff;border:1px solid var(--linia);border-top:3px solid var(--granat);padding:24px 24px 22px;user-select:none}
+.opinie p{color:#22203A;font-size:16.5px;margin:0 0 14px}
+.opinie cite{font-style:normal;font-size:15px;color:#5D6172}
+.wspolpraca{margin-top:34px;padding-top:26px;border-top:1px solid var(--linia)}
+.wspolpraca h3{margin-bottom:10px}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:stretch}
+.dane{display:grid;gap:22px;align-content:start}
+.dane h3{font-size:15px;font-weight:600;color:#5D6172;letter-spacing:0;margin-bottom:4px}
+.dane a,.dane p{font-size:20px;font-weight:650;color:var(--granat);text-decoration:none;margin:0;display:block;line-height:1.45}
+.dane a:hover{text-decoration:underline}
+.dane small{display:block;font-size:15px;font-weight:400;color:var(--tekst)}
+.tab{border-collapse:collapse;font-size:18px}
+.tab td{padding:3px 22px 3px 0;color:var(--granat);font-weight:650}
+.tab td:first-child{font-weight:400;color:var(--tekst)}
+.mapa{position:relative;min-height:420px;background:#E3E5EE;border:1px solid var(--linia)}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mapa a{position:absolute;inset:auto 0 0 0;padding:14px;text-align:center;font-weight:600;color:var(--granat)}
+
+/* stopka */
+.stopka{background:var(--granat);color:#C9C5EE;padding:56px 0 30px;font-size:15.5px}
+.stopka .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px}
+.stopka img{width:170px}
+.stopka a{color:#fff;text-decoration:none}
+.stopka a:hover{text-decoration:underline}
+.stopka ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.stopka .dol{grid-column:1/-1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid rgba(255,255,255,.18);padding-top:22px;margin-top:20px;color:#B6B1E6}
+.stopka .wylinka-badge{color:#B6B1E6}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (max-width:980px){
+  .hero .wrap{grid-template-columns:1fr;gap:40px;min-height:0}
+  .naglowek,.dwie,.onas,.kontakt{grid-template-columns:1fr}
+  .avon{grid-template-columns:1fr;gap:34px}
+  .stopka .wrap{grid-template-columns:1fr 1fr}
+  .stopka .wrap>div:first-child{grid-column:1/-1}
+}
+@media (max-width:820px){
+  .burger{display:block}
+  .menu{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 22px;border-bottom:1px solid var(--linia);box-shadow:0 18px 30px rgba(24,15,94,.08)}
+  .menu.otwarte{display:flex}
+  .menu a{padding:15px 0;border-bottom:1px solid var(--linia);font-size:18px}
+  .menu .btn{margin-top:16px;justify-content:center;min-height:52px;border-bottom:0}
+}
+@media (max-width:640px){
+  body{font-size:16.5px}
+  .wrap{width:calc(100% - 32px)}
+  .logo img{width:150px}
+  .sekcja{padding:68px 0}
+  .hero .wrap{padding-block:26px 44px}
+  .trasa{padding:22px 20px 40px 20px}
+  .t-dol{width:52%}
+  .od{margin-bottom:12px;font-size:15px}
+  .hero h1{font-size:clamp(28px,8vw,34px)}
+  .hero .lead{margin-top:14px;font-size:16.5px}
+  .godz{margin-top:12px;font-size:15px}
+  .akcje{margin-top:24px;gap:10px}
+  .akcje .btn{flex:1 1 100%;justify-content:center;min-height:50px}
+  .skroty a{padding:15px 2px;font-size:18px}
+  .uslugi{grid-template-columns:1fr}
+  .fakty{grid-template-columns:1fr}
+  .cennik li{padding:16px 18px}
+  .cennik b{font-size:22px}
+  .mapa{min-height:320px}
+  .stopka .wrap{gap:26px 20px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="Antax s.c. - strona główna"><img src="img/logo-granat.png" width="640" height="102" alt="Antax s.c."></a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+    <nav class="menu" id="menu">
+      <a href="#oferta">Oferta</a>
+      <a href="#paczki">Paczki</a>
+      <a href="#oplaty">Opłaty</a>
+      <a href="#onas">O nas</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="btn" href="tel:+48126803480">12 680 34 80</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="trasa">
+      <i class="t-prawa" aria-hidden="true"></i>
+      <p class="od">Od 2006 roku, os. Teatralne 33a, Nowa Huta</p>
+      <h1>Paczki, opłaty, ksero i Avon w jednym punkcie w Nowej Hucie</h1>
+      <p class="lead">Sprzedajemy, kserujemy, skanujemy, wysyłamy, przyjmujemy, wydajemy i zamawiamy. Wszystko w pawilonie przy XI LO.</p>
+      <p class="godz">pn.-pt. 10:00-18:00 <span>|</span> sob. 9:00-14:00</p>
+      <div class="akcje">
+        <a class="btn btn-bialy" href="tel:+48126803480">Zadzwoń: 12 680 34 80</a>
+        <a class="btn btn-obrys" href="#kontakt">Jak do nas trafić</a>
+      </div>
+      <i class="t-dol" aria-hidden="true"><svg viewBox="0 0 48 26"><polygon points="1,1 46,13 1,25"/></svg></i>
+    </div>
+    <nav class="skroty" aria-label="Najważniejsze usługi">
+      <a href="#paczki">Nadanie i odbiór paczek<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+      <a href="#oplaty">Opłaty rachunków<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+      <a href="#oferta">Ksero, wydruki, skany<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+      <a href="#avon">Kosmetyki Avon<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+      <a href="#co2">Wymiana butli CO2<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+      <a href="#oferta">Punkt awizacyjny Speedmail<svg class="grot" viewBox="0 0 30 14"><polygon points="1,1 28,7 1,13"/></svg></a>
+    </nav>
+  </div>
+</section>
+
+<section class="sekcja" id="oferta">
+  <div class="wrap">
+    <div class="naglowek">
+      <div>
+        <h2>Co załatwisz u nas</h2>
+        <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      </div>
+      <p>Wiele spraw w jednym miejscu: wyślesz paczkę, opłacisz rachunki, wydrukujesz dokument i kupisz kosmetyki. Za towary i usługi zapłacisz kartą, BLIK-iem, telefonem lub zegarkiem.</p>
+    </div>
+    <div class="uslugi">
+      <article class="usluga">
+        <h3><a href="#paczki">Przesyłki kurierskie</a></h3>
+        <p>Nadasz i odbierzesz paczkę krajową i zagraniczną. Nie masz etykiety? Przygotujemy ją i wydrukujemy na miejscu.</p>
+        <p class="kto">GLS, InPost, DHL, DPD, Orlen Paczka, Allegro One, UPS, FedEx, Furgonetka.pl</p>
+      </article>
+      <article class="usluga">
+        <h3><a href="#oplaty">Agencja opłat</a></h3>
+        <p>Czynsz, prąd, gaz, telefon, ubezpieczenia, ZUS, KRUS i urząd skarbowy. Wpłacamy na każde konto w polskim banku.</p>
+        <p class="kto">Biuro Usług Płatniczych pod nadzorem KNF</p>
+      </article>
+      <article class="usluga">
+        <h3>Ksero, wydruki i skany</h3>
+        <p>Kopie dokumentów, wydruki z pendrive'a i z maila, skanowanie. Powyżej 20 stron każda strona tańsza o 10 gr.</p>
+      </article>
+      <article class="usluga">
+        <h3>Artykuły biurowe i do pakowania</h3>
+        <p>Koperty bąbelkowe, foliopaki, taśmy, folia bąbelkowa i streczowanie. Często mamy też bezpłatne kartony.</p>
+      </article>
+      <article class="usluga">
+        <h3><a href="#co2">Wymiana butli CO2</a></h3>
+        <p>Wymiana od ręki i sprzedaż pełnych butli do saturatorów typu Sodastream, z gwintem i z różowym kołnierzykiem.</p>
+        <p class="kto">we współpracy z Corsplean</p>
+      </article>
+      <article class="usluga">
+        <h3><a href="#avon">Kosmetyki Avon</a></h3>
+        <p>Większość kosmetyków od ręki, w cenach z katalogu i w naszych promocjach. Biżuterię i galanterię zamówimy dla Ciebie.</p>
+      </article>
+      <article class="usluga">
+        <h3>Punkt awizacyjny Speedmail</h3>
+        <p>Odbierzesz u nas awizowane listy Speedmail, m.in. z urzędu miasta, banków i od ubezpieczycieli.</p>
+      </article>
+      <article class="usluga">
+        <h3><a href="#onas">Punkt odbioru dla sklepów</a></h3>
+        <p>Prowadzisz sprzedaż w internecie i szukasz partnera na punkt odbioru? Mamy zaplecze magazynowe i wejście od głównej ulicy.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja szara" id="paczki">
+  <div class="wrap dwie">
+    <div>
+      <h2>Nadaj paczkę bez stania przy komputerze</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <p class="mocno" style="margin-top:26px">Przynieś paczkę z etykietą albo bez. Razem wybierzemy przewoźnika, który najlepiej pasuje ceną i czasem dostawy.</p>
+      <p>Wysyłamy paczki krajowe, międzynarodowe i międzykontynentalne. Każda przesyłka nadana u nas ma swój numer, po którym śledzisz jej drogę.</p>
+      <ul class="przewoznicy">
+        <li>GLS</li><li>InPost</li><li>DHL</li><li>DPD</li><li>Orlen Paczka</li><li>Allegro One</li><li>UPS</li><li>FedEx</li><li>Furgonetka.pl</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="lista">
+        <li><b>Zapakuj przedmiot</b>Najlepiej w karton, z wypełnieniem, żeby nic się w środku nie przesuwało. Stare etykiety usuń z opakowania.</li>
+        <li><b>Etykieta: Twoja albo nasza</b>Masz etykietę zwrotną ze sklepu? Wystarczy ją nakleić. Nie masz drukarki? Wydrukujemy ją za Ciebie.</li>
+        <li><b>Zapłać na miejscu</b>Gotówką lub kartą. Na miejscu kupisz też koperty, foliopaki i taśmę.</li>
+      </ul>
+      <p class="uwaga"><b>Przynieś paczkę do 12:00</b>wtedy ruszy w drogę jeszcze tego samego dnia.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="oplaty">
+  <div class="wrap dwie">
+    <div>
+      <h2>Opłacisz rachunki szybko i bezpiecznie</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <p class="mocno" style="margin-top:26px">Przyjmujemy wpłaty na oryginalnych blankietach i na drukach wypisanych ręcznie. Możesz też wpłacić bez blankietu.</p>
+      <p>Czynsz, prąd, gaz, telefon, wynajem, ubezpieczenia, telewizja, a także ZUS, KRUS i urząd skarbowy. Pieniądze wpłacamy na każde konto w polskim banku.</p>
+    </div>
+    <ul class="fakty">
+      <li><b>Nadzór KNF</b><span>Biuro Usług Płatniczych nr BP 2365/2019</span></li>
+      <li><b>Plusbank</b><span>realizuje nasze płatności, współpracujemy od 2006 roku</span></li>
+      <li><b>Rachunki wyłącznie gotówką</b><span>za pozostałe usługi zapłacisz też kartą</span></li>
+      <li><b>Wpłata bez blankietu</b><span>z wydrukiem potwierdzenia za 1 zł</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekcja szara" id="co2">
+  <div class="wrap dwie">
+    <div>
+      <h2>Wymiana butli CO2 od ręki</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <p class="mocno" style="margin-top:26px">Skończył się gaz w saturatorze? Przynieś pustą butlę, wymienisz ją na pełną na miejscu.</p>
+      <p>Butle pasują do saturatorów Sodastream, Orion, Grohe, Spindelsoda, Philips, Aarke, Sodaprince, Sodaclub, Aquadream, Wassermaxx i innych. Napełniamy butle z zaworem jedno- i dwukierunkowym, z gwintem i z różowym kołnierzykiem.</p>
+      <p>Jedna butla CO2 zastępuje aż 40 butelek PET 1,5 l.</p>
+    </div>
+    <div>
+      <ul class="cennik">
+        <li><span>Wymiana różowej butli</span><b>25 zł</b></li>
+        <li><span>Pełna butla różowa z kołnierzykiem</span><b>120 zł</b></li>
+        <li><span>Pełna butla niebieska z gwintem</span><b>100 zł</b></li>
+        <li><span>Za każdą wymianę naklejka. Zbierz 7 naklejek, a kolejną wymianę dostaniesz gratis.</span><b>gratis</b></li>
+      </ul>
+      <p class="male">Akcja z naklejkami trwa do 31.12.2026. Nie przyjmujemy na wymianę chińskich zamienników różowych butli, bo są niebezpieczne dla użytkownika i urządzenia.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="avon">
+  <div class="wrap avon">
+    <img src="img/avon.webp" width="768" height="446" alt="Kosmetyki Avon" loading="lazy">
+    <div>
+      <h2>Kosmetyki Avon od ręki</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <p class="mocno" style="margin-top:26px">Od Avonu zaczęła się nasza praca. Do dziś doradzamy przy wyborze kosmetyków i obsługujemy wierne klientki.</p>
+      <p>Większość produktów kupisz od ręki, w cenach z aktualnego katalogu, a do tego w naszych promocjach i wyprzedażach. Biżuterię i galanterię zamawiamy na życzenie po wpłaceniu zadatku, realizacja trwa ok. 4 dni.</p>
+      <p>Chcesz sprzedawać kosmetyki Avon? Dołącz do zespołu Anety albo Magdy.</p>
+      <div class="zespol">
+        <a class="btn" href="tel:+48692494043">Aneta: 692 494 043</a>
+        <a class="btn" href="tel:+48604062995">Magda: 604 062 995</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja szara" id="onas">
+  <div class="wrap onas">
+    <div>
+      <h2>Prowadzimy punkt we dwie</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <p class="mocno" style="margin-top:26px">Znamy się i przyjaźnimy od ponad 20 lat. W pracy i w życiu najbardziej cenimy uczciwość i sumienność.</p>
+      <p>Spółkę Antax założyłyśmy w 2006 roku. Najpierw była sprzedaż Avon i agencja opłat, w 2011 roku doszła współpraca z GLS, a potem z kolejnymi przewoźnikami. Od 2022 roku wymieniamy butle CO2. Każdego klienta traktujemy indywidualnie.</p>
+      <figure class="punkt"><img src="img/punkt.webp" width="400" height="300" alt="Wnętrze punktu Antax: lada i regały z kosmetykami" loading="lazy"><figcaption>Nasz punkt w pawilonie przy XI LO</figcaption></figure>
+      <div class="podpis">
+        <div><b>Aneta Ciesielska</b><span>współzałożycielka Antax</span></div>
+        <div><b>Magdalena Dobosz</b><span>współzałożycielka Antax</span></div>
+      </div>
+      <div class="wspolpraca">
+        <h3>Współpraca</h3>
+        <p>Sprzedajesz w internecie i szukasz partnera, który poprowadzi Twój punkt odbioru? Mamy zaplecze magazynowe, wejście od głównej ulicy i lokalizację w centrum Nowej Huty. Zapraszamy do kontaktu.</p>
+      </div>
+    </div>
+    <div>
+      <div class="ocena"><b>4,6</b> ocena w Google na podstawie 80 opinii</div>
+      <div class="opinie" tabindex="0" aria-label="Opinie klientów, przewijane w bok">
+        <blockquote><p>Bardzo polecam współpracę z tym punktem. Uzyskałem wszelką pomoc i nadałem nietypową paczkę. Pani, która prowadzi punkt, jest niezwykle miła i pomocna.</p><cite>Janusz P., opinia Google</cite></blockquote>
+        <blockquote><p>Fajnie, bo niedaleko nabić butlę SodaStream. Super i niedrogo.</p><cite>Tomasz P., opinia Google</cite></blockquote>
+        <blockquote><p>Odbieranie paczek, szybka i miła obsługa. Polecam.</p><cite>Justyna S., opinia Google</cite></blockquote>
+        <blockquote><p>Miła i fachowa obsługa. Polecam.</p><cite>Zbigniew B., opinia Google</cite></blockquote>
+        <blockquote><p>Z reguły drukuję tylko etykietki do paczek, ale pani jest zawsze bardzo miła.</p><cite>Arkadiusz O., opinia Google</cite></blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekcja" id="kontakt">
+  <div class="wrap kontakt">
+    <div>
+      <h2>Zapraszamy</h2>
+      <div class="kreska" aria-hidden="true"><b></b><svg viewBox="0 0 30 16"><polygon points="1,1 28,8 1,15"/></svg></div>
+      <div class="dane" style="margin-top:34px">
+        <div><h3>Adres</h3><p>os. Teatralne 33a, 31-945 Kraków<small>pawilony przy XI LO, Nowa Huta</small></p></div>
+        <div><h3>Godziny otwarcia</h3>
+          <table class="tab"><tr><td>poniedziałek-piątek</td><td>10:00-18:00</td></tr><tr><td>sobota</td><td>9:00-14:00</td></tr></table>
+        </div>
+        <div><h3>Telefon</h3><a href="tel:+48126803480">12 680 34 80</a><a href="tel:+48692494043">692 494 043</a><a href="tel:+48604062995">604 062 995</a></div>
+        <div><h3>E-mail</h3><a href="mailto:antaxkrk@gmail.com">antaxkrk@gmail.com</a></div>
+      </div>
+    </div>
+    <div class="mapa" id="mapa" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.249418891028!2d20.030031514946938!3d50.08161692175428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716453ff165c8b3%3A0x6d95bf0da49607ac!2sANTAX%20S.C.!5e0!3m2!1spl!2spl!4v1649173738703!5m2!1spl!2spl">
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Antax+os.+Teatralne+33a+Krak%C3%B3w" target="_blank" rel="noopener">Otwórz w Mapach Google</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div>
+      <img src="img/logo-bialy.png" width="640" height="102" alt="Antax s.c." loading="lazy">
+      <p style="margin-top:18px">Punkt wielobranżowy w Nowej Hucie<br>os. Teatralne 33a, 31-945 Kraków</p>
+    </div>
+    <ul>
+      <li><a href="#oferta">Oferta</a></li>
+      <li><a href="#paczki">Przesyłki kurierskie</a></li>
+      <li><a href="#oplaty">Agencja opłat</a></li>
+      <li><a href="#co2">Wymiana butli CO2</a></li>
+      <li><a href="#avon">Avon</a></li>
+    </ul>
+    <ul>
+      <li><a href="tel:+48126803480">12 680 34 80</a></li>
+      <li><a href="tel:+48692494043">692 494 043</a></li>
+      <li><a href="tel:+48604062995">604 062 995</a></li>
+      <li><a href="mailto:antaxkrk@gmail.com">antaxkrk@gmail.com</a></li>
+    </ul>
+    <div class="dol">
+      <span>&copy; 2026 Antax s.c.</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=antax-krakow.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.querySelector('.burger'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){var o=m.classList.toggle('otwarte');b.setAttribute('aria-expanded',o)});
+  m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('otwarte');b.setAttribute('aria-expanded','false')}});
+  var op=document.querySelector('.opinie'),x0,s0,ciag=false;
+  op.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;ciag=true;x0=e.clientX;s0=op.scrollLeft;op.classList.add('ciagnie')});
+  window.addEventListener('pointermove',function(e){if(ciag)op.scrollLeft=s0-(e.clientX-x0)});
+  window.addEventListener('pointerup',function(){if(ciag){ciag=false;op.classList.remove('ciagnie')}});
+  var mp=document.getElementById('mapa');
+  function laduj(){if(mp.dataset.ok)return;mp.dataset.ok=1;var f=document.createElement('iframe');f.src=mp.dataset.src;f.title='Mapa dojazdu do Antax';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mp.prepend(f)}
+  if('IntersectionObserver' in window){new IntersectionObserver(function(en,o){if(en[0].isIntersecting){laduj();o.disconnect()}},{rootMargin:'300px'}).observe(mp)}else laduj();
+})();
+</script>
+</body>
+</html>
